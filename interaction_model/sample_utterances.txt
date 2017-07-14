@@ -1,0 +1,2 @@
+IsItRainingInLocation is it raining in {Location}
+IsItRainingInLocation {Location}

@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "IsItRainingInLocation",
+      "slots": [
+        {
+          "name": "Location",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    }
+  ]
+}
