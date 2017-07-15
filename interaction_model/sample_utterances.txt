@@ -1,2 +1,9 @@
-IsItRainingInLocation is it raining in {Location}
-IsItRainingInLocation {Location}
+IsItRainingInLocation {City}
+IsItRainingInLocation {City} {State}
+IsItRainingInLocation {City} {Country}
+IsItRainingInLocation {City} {State} {Country}
+IsItRainingInLocation is it raining in
+IsItRainingInLocation is it raining in {City}
+IsItRainingInLocation is it raining in {City} {State}
+IsItRainingInLocation is it raining in {City} {Country}
+IsItRainingInLocation is it raining in {City} {State} {Country}

@@ -4,10 +4,27 @@
       "intent": "IsItRainingInLocation",
       "slots": [
         {
-          "name": "Location",
+          "name": "City",
           "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "State",
+          "type": "AMAZON.US_STATE"
+        },
+        {
+          "name": "Country",
+          "type": "AMAZON.Country"
         }
       ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }
