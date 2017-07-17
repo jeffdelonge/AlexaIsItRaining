@@ -4,7 +4,7 @@ IS_IT_RAINING_APPLICATION_ID = "amzn1.ask.skill.9d78870e-6c3b-4ced-9894-412f5d84
 
 def lambda_handler(event, context):
     # Ensure that the request was intended for our service
-    if (event['session']['application']['applicationId'] != constants.IS_IT_RAINING_APPLICATION_ID):
+    if (event['session']['application']['applicationId'] != IS_IT_RAINING_APPLICATION_ID):
         raise ValueError("Invalid applicationId")
 
     # Get the request type and call the corresponding request handler
