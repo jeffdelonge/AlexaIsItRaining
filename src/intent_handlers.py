@@ -3,7 +3,7 @@ import urllib.request
 
 # Intent handlers & speech utilities --------------------------------------------------------------------------------------------
 WELCOME_TEXT = "Hello! Give me a city to check for rain."
-HELP_TEXT = "You can say things like, New York. Or, is it raining in Sydney Australia? When you're ready, give me a city to check for rain."
+HELP_TEXT = "You can say things like, New York. Or, is it raining in Miami Florida? When you're ready, give me a city to check for rain."
 GOODBYE_TEXT = "Goodbye."
 UNRECOGNIZED_CITY_TEXT = "Sorry, I didn't recognize that city. Please try again. Or say, help, for assistance."
 HTTP_ERROR_TEXT = "Oops, an error occured. Please try again. Or say, exit, to quit."
